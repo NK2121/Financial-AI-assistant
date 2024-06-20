@@ -1,0 +1,77 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": ["Hey", "Hello", "What's up?", "Hi", "Good morning", "Good afternoon", "Good evening", "Greetings", "Howdy", "Hey there"],
+        "responses": ["Hello Sir!", "Hey Florian!", "Hi there! How can I assist you today?", "Greetings! How can I help you with your portfolio today?"],
+        "context_set": ""
+      },
+      {
+        "tag": "plot_chart",
+        "patterns": ["I want you to plot a stock price!", "Please plot a chart", "Plot a chart", "Can you plot a stock price?", "Show me a stock chart", "Plot the stock price", "Create a chart for a stock", "Draw a stock price chart", "Generate a stock chart", "Display a stock chart"],
+        "responses": ["Plotting Chart", "Here is the chart you requested", "Generating the stock price chart"],
+        "context_set": ""
+      },
+      {
+        "tag": "add_portfolio",
+        "patterns": ["Add a stock to my portfolio", "Add a stock", "Add a stock to my list", "Can you add a stock to my portfolio?", "Include a stock in my portfolio", "Add this stock to my portfolio", "Add a new stock to my portfolio", "Add this stock to my list", "Add to my portfolio", "Add stock to portfolio"],
+        "responses": ["Adding Stock", "The stock has been added to your portfolio", "Stock added to your portfolio successfully"],
+        "context_set": ""
+      },
+      {
+        "tag": "remove_portfolio",
+        "patterns": ["Remove a stock from my portfolio", "Remove a stock", "Remove a stock from my list", "Can you remove a stock from my portfolio?", "Delete a stock from my portfolio", "Remove this stock from my portfolio", "Remove a stock from my portfolio list", "Remove this stock from my list", "Remove from my portfolio", "Delete stock from portfolio"],
+        "responses": ["Removing Stock", "The stock has been removed from your portfolio", "Stock removed from your portfolio successfully"],
+        "context_set": ""
+      },
+      {
+        "tag": "show_portfolio",
+        "patterns": ["Show me my investments", "Show me my portfolio", "Tell me about my portfolio", "Display my portfolio", "What is in my portfolio?", "Can you show me my portfolio?", "Portfolio details please", "Show my investments", "Show my stocks", "Show portfolio"],
+        "responses": ["Showing Portfolio", "Here are the details of your portfolio", "Displaying your current investments"],
+        "context_set": ""
+      },
+      {
+        "tag": "stock_price",
+        "patterns": ["I want to know the price of a stock!", "Show me the price of a stock", "What is the stock price?", "Can you tell me the stock price?", "Stock price please", "Tell me the price of a stock", "What's the current stock price?", "Give me the stock price", "Price of the stock", "Stock price information"],
+        "responses": ["Showing Stock Price", "Here is the current price of the stock", "The stock price is as follows"],
+        "context_set": ""
+      },
+      {
+        "tag": "portfolio_worth",
+        "patterns": ["How much is my portfolio worth?", "What is the value of my portfolio?", "Tell me the worth of my portfolio", "Portfolio worth please", "What is my portfolio worth?", "How valuable is my portfolio?", "Show me my portfolio worth", "Value of my portfolio", "Portfolio value", "Portfolio net worth"],
+        "responses": ["Showing Portfolio Worth", "Here is the current value of your portfolio", "The worth of your portfolio is as follows"],
+        "context_set": ""
+      },
+      {
+        "tag": "portfolio_gains",
+        "patterns": ["How is my portfolio performing?", "How are my gains?", "Am I in the green?", "Portfolio performance please", "Tell me my portfolio gains", "Show my portfolio gains", "Are my investments up?", "Am I making money?", "Portfolio gains update", "Portfolio gains status"],
+        "responses": ["Showing Portfolio Gains", "Here are your current portfolio gains", "Your portfolio performance is as follows"],
+        "context_set": ""
+      },
+      {
+        "tag": "investment_advice",
+        "patterns": ["What stocks should I buy?", "Give me some investment advice", "What are good investments right now?", "What should I invest in?", "Any stock recommendations?", "Can you suggest some stocks?", "Investment advice please", "What are some good stocks to buy?", "Best stocks to invest in", "What are top investments currently?"],
+        "responses": ["Based on current trends, here are some stocks you might consider", "Here are a few investment ideas for you", "Consider these stocks for your investment"],
+        "context_set": ""
+      },
+      {
+        "tag": "market_news",
+        "patterns": ["What's the latest market news?", "Any news on the stock market?", "Give me the latest financial news", "What's happening in the stock market?", "Any updates on the market?", "Market news please", "Stock market updates", "Latest financial updates", "News on the market", "What's new in the stock market?"],
+        "responses": ["Here are the latest market updates", "The stock market news for today is", "Here is what's happening in the stock market"],
+        "context_set": ""
+      },
+      {
+        "tag": "dividends",
+        "patterns": ["Tell me about dividends", "Which stocks pay dividends?", "What are the dividend-paying stocks?", "Can you show me dividend information?", "Dividends details please", "Which companies offer dividends?", "Dividend stock information", "Stocks with dividends", "Dividend updates", "Tell me the dividends of my stocks"],
+        "responses": ["Here is the dividend information you requested", "The following stocks are known for their dividends", "Here are some stocks that pay dividends"],
+        "context_set": ""
+      },
+      {
+        "tag": "bye",
+        "patterns": ["bye", "goodbye", "stop", "I have to go", "end", "see you", "later", "talk to you later", "bye bye", "farewell", "catch you later"],
+        "responses": ["Goodbye", "See you later!", "Farewell!", "Talk to you later!", "Goodbye! Have a great day!"],
+        "context_set": ""
+      }
+    ]
+  }
+  
